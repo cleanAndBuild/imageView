@@ -12,6 +12,10 @@
 		1CA306EB2106F9A300033AB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA306E92106F9A300033AB8 /* Main.storyboard */; };
 		1CA306ED2106F9A400033AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA306EC2106F9A400033AB8 /* Assets.xcassets */; };
 		1CA306F02106F9A400033AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA306EE2106F9A400033AB8 /* LaunchScreen.storyboard */; };
+		1CA306FB2106FBA800033AB8 /* hitsuji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA306F72106FBA800033AB8 /* hitsuji@2x.png */; };
+		1CA306FC2106FBA800033AB8 /* kijitora@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA306F82106FBA800033AB8 /* kijitora@2x.png */; };
+		1CA306FD2106FBA800033AB8 /* chashiro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA306F92106FBA800033AB8 /* chashiro@2x.png */; };
+		1CA306FE2106FBA800033AB8 /* alpaca@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CA306FA2106FBA800033AB8 /* alpaca@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1CA306EC2106F9A400033AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA306EF2106F9A400033AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CA306F12106F9A400033AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA306F72106FBA800033AB8 /* hitsuji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hitsuji@2x.png"; sourceTree = "<group>"; };
+		1CA306F82106FBA800033AB8 /* kijitora@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kijitora@2x.png"; sourceTree = "<group>"; };
+		1CA306F92106FBA800033AB8 /* chashiro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chashiro@2x.png"; sourceTree = "<group>"; };
+		1CA306FA2106FBA800033AB8 /* alpaca@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpaca@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 				1CA306E72106F9A300033AB8 /* ViewController.swift */,
 				1CA306E92106F9A300033AB8 /* Main.storyboard */,
 				1CA306EC2106F9A400033AB8 /* Assets.xcassets */,
+				1CA306FA2106FBA800033AB8 /* alpaca@2x.png */,
+				1CA306F92106FBA800033AB8 /* chashiro@2x.png */,
+				1CA306F72106FBA800033AB8 /* hitsuji@2x.png */,
+				1CA306F82106FBA800033AB8 /* kijitora@2x.png */,
 				1CA306EE2106F9A400033AB8 /* LaunchScreen.storyboard */,
 				1CA306F12106F9A400033AB8 /* Info.plist */,
 			);
@@ -124,7 +136,11 @@
 			files = (
 				1CA306F02106F9A400033AB8 /* LaunchScreen.storyboard in Resources */,
 				1CA306ED2106F9A400033AB8 /* Assets.xcassets in Resources */,
+				1CA306FC2106FBA800033AB8 /* kijitora@2x.png in Resources */,
 				1CA306EB2106F9A300033AB8 /* Main.storyboard in Resources */,
+				1CA306FB2106FBA800033AB8 /* hitsuji@2x.png in Resources */,
+				1CA306FE2106FBA800033AB8 /* alpaca@2x.png in Resources */,
+				1CA306FD2106FBA800033AB8 /* chashiro@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +299,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCY5BEZ37J;
 				INFOPLIST_FILE = imageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yako.imageView;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.stepAppSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,11 +318,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NCY5BEZ37J;
 				INFOPLIST_FILE = imageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.yako.imageView;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.stepAppSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
